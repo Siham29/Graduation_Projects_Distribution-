@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProjectTableController">
+   <center>
+      <AnchorPane prefHeight="700.0" prefWidth="1090.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="table" layoutX="47.0" layoutY="179.0" prefHeight="421.0" prefWidth="1005.0" style="-fx-background-color: #C9FFBF; -fx-border-color: #FBE7B5;">
+              <columns>
+                  <TableColumn fx:id="ProjectID" prefWidth="73.0" text="Project ID" />
+                  <TableColumn fx:id="SupervisorName" prefWidth="155.0" text="Supervisor's Name" />
+                  <TableColumn fx:id="ProjectName" prefWidth="551.0" text="Project Name" />
+                <TableColumn fx:id="GroupID" prefWidth="75.0" text="Group ID" />
+                <TableColumn fx:id="GroupStudents" prefWidth="148.0" text="Group Students" />
+              </columns>
+            </TableView>
+            <Pane layoutY="49.0" prefHeight="66.0" prefWidth="1090.0" style="-fx-background-color: #00CF91;">
+               <children>
+                  <Label layoutX="382.0" layoutY="-29.0" text="Distribution Table" textFill="WHITE">
+                     <font>
+                        <Font name="Aldhabi" size="72.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <JFXButton fx:id="backB" layoutX="938.0" layoutY="619.0" onAction="#back" prefHeight="58.0" prefWidth="112.0" style="-fx-background-color: #CBE724; -fx-background-radius: 45;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DistController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="700.0" prefWidth="1090.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutY="49.0" prefHeight="66.0" prefWidth="1090.0" style="-fx-background-color: #ff91a4;">
+               <children>
+                  <Label layoutX="391.0" layoutY="-29.0" prefHeight="125.0" prefWidth="431.0" text="View Distribution" textFill="WHITE">
+                     <font>
+                        <Font name="Aldhabi" size="72.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <HBox layoutX="73.0" layoutY="296.0" prefHeight="182.0" prefWidth="944.0" spacing="50.0">
+               <children>
+                  <JFXButton fx:id="groupB" contentDisplay="BOTTOM" onAction="#groupAction" prefHeight="100.0" prefWidth="450.0" style="-fx-background-color: #E5F0FF; -fx-background-radius: 45;" text="Sorting Distribution Based on Groups">
+                     <font>
+                        <Font name="Aldhabi" size="39.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="119.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../samples/team.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="projectB" contentDisplay="BOTTOM" onAction="#projectAction" prefHeight="100.0" prefWidth="450.0" style="-fx-background-color: #E5F0FF; -fx-background-radius: 45;" text="Sorting Distribution Based on Projects">
+                     <font>
+                        <Font name="Aldhabi" size="39.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="119.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../samples/idea.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <Label layoutX="73.0" layoutY="146.0" text="Number of groups who received their first choice:" textFill="#0043a4">
+               <font>
+                  <Font name="Aldhabi" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="181.0" text="Number of groups who received their second choice:" textFill="#f85c50">
+               <font>
+                  <Font name="Aldhabi" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="215.0" text="Number of groups who received their third choice:" textFill="#116315">
+               <font>
+                  <Font name="Aldhabi" size="28.0" />
+               </font>
+            </Label>
+            <HBox layoutX="99.0" layoutY="547.0" prefHeight="68.0" prefWidth="397.0" spacing="80.0">
+               <children>
+                  <JFXButton fx:id="gamegroupB" onAction="#gameGroup" prefHeight="55.0" prefWidth="155.0" style="-fx-background-color: #FFE0BC; -fx-background-radius: 20;" text="Play a Game">
+                     <font>
+                        <Font name="Aldhabi" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="tableGB" onAction="#tableGroup" prefHeight="55.0" prefWidth="155.0" style="-fx-background-color: #FFE0BC; -fx-background-radius: 20;" text="Show Table">
+                     <font>
+                        <Font name="Aldhabi" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox layoutX="598.0" layoutY="547.0" prefHeight="68.0" prefWidth="397.0" spacing="80.0">
+               <children>
+                  <JFXButton fx:id="gameprojectB" onAction="#gameProject" prefHeight="55.0" prefWidth="155.0" style="-fx-background-color: #FFE55E; -fx-background-radius: 20;" text="Play a Game">
+                     <font>
+                        <Font name="Aldhabi" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="tablePB" onAction="#tableProject" prefHeight="55.0" prefWidth="155.0" style="-fx-background-color: #FFE55E; -fx-background-radius: 20;" text="Show Table">
+                     <font>
+                        <Font name="Aldhabi" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <Label layoutX="598.0" layoutY="174.0" text="In Total Groups:" textFill="#922d25">
+               <font>
+                  <Font name="Aldhabi" size="36.0" />
+               </font></Label>
+            <Label fx:id="totalNum" layoutX="762.0" layoutY="188.0" text="Total" textFill="#922d25">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstNum" layoutX="454.0" layoutY="153.0" prefHeight="35.0" prefWidth="108.0" text="First" textFill="#0043a4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="secondNum" layoutX="457.0" layoutY="189.0" text="Second" textFill="#f85c50">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="thirsdNum" layoutX="457.0" layoutY="222.0" text="Third" textFill="#116315">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

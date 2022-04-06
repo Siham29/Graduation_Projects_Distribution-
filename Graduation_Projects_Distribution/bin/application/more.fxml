@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.moreController">
+   <center>
+      <AnchorPane prefHeight="427.0" prefWidth="638.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutY="49.0" prefHeight="66.0" prefWidth="1090.0" style="-fx-background-color: #00848C;">
+               <children>
+                  <Label layoutX="29.0" layoutY="-29.0" text="Welcome to Graduation Projects File formatting Guide" textFill="WHITE">
+                     <font>
+                        <Font name="Aldhabi" size="72.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <VBox layoutX="46.0" layoutY="143.0" prefHeight="184.0" prefWidth="796.0">
+               <children>
+                  <Label prefHeight="53.0" prefWidth="384.0" text="Projects File Format:">
+                     <font>
+                        <Font name="Aldhabi" size="48.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="95.0" prefWidth="796.0">
+                     <children>
+                        <Label text="Projects file contains each project id, supervisor's name, project topic and discription of the project separated by '@'.">
+                           <font>
+                              <Font name="Aldhabi" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label text="Example: projectID@supervisorName@projectName@discription">
+                           <font>
+                              <Font name="Aldhabi" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox layoutX="46.0" layoutY="380.0" prefHeight="216.0" prefWidth="699.0">
+               <children>
+                  <Label prefHeight="53.0" prefWidth="384.0" text="Groups File Format:">
+                     <font>
+                        <Font name="Aldhabi" size="48.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="145.0" prefWidth="686.0">
+                     <children>
+                        <Label text="Groups file contains each group id, group students name and their three prefernces separated by '@'.">
+                           <font>
+                              <Font name="Aldhabi" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label text="Group students name are separated by ',' , and the same for their preferences">
+                           <font>
+                              <Font name="Aldhabi" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label text="Example: groupID@student1,student2,student3@preference1,preference2,preference3">
+                           <font>
+                              <Font name="Aldhabi" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <JFXButton fx:id="backB" layoutX="934.0" layoutY="596.0" onAction="#back" prefHeight="58.0" prefWidth="112.0" style="-fx-background-color: #45D09E; -fx-background-radius: 45;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children></AnchorPane>
+      
+   </center>
+</BorderPane>

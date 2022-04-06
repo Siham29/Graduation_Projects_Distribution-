@@ -1,0 +1,103 @@
+1@Tari,Issa,Jihad@35,7,22
+35@Dr. Ayman Hroub@E-Government Services Platform@In this project, the students are expected to develop a web-based platform that automates the governmental services, such that the citizens and the residents of a
+
+2@Kheiria,Dina,Baraa@11,21,10
+11@Dr. Abdalkarim Awad@Oxygen Concentrator@The main goal
+
+3@Dana,Lara,Mayar@7,21,22
+36@Dr. Ayman Hroub@Mobile Application Controlled Smart Prepaid Utility Metering System@This project aims at allowing the customer to control and monitor his or her account(s) on the smart prepaid utility (e.g., electricity) metering system through a
+
+4@Ameena,Amr,Bashar@7,22,35
+5@Dr. Ahmad Alsadeh@Automatic@The purpose of
+8@Dr. Wael Hashlamoun@An Application@During the
+
+5@Saba,Safa,Mahmoud@1,2,22
+1@Dr. Abualseoud Hanani@Audio Classification@Audio
+
+6@Mohammad,Abdallah@22,21,29
+21@Dr. Abdallatif Abuissa@A Mobile Application to Support Health Issues for Elderly@In this project, the students will develop a mobile application that supports the medical needs of old people. The students will be provided with a wearable computer that can take some information about the person, in addition to all history of the person to provide recommendations/reminders to him/her. More features can be added.
+
+7@Najla,Yara,Shayma@22,21,2
+22@Dr. Abdallatif Abuissa@A Mobile Application for Kids Follow-Up@In this project, the student will develop a mobile application that can be used by the parents to follow up the place of their kids. The application will provide information about the place of their kids and the time they spent their. Also, it will give alarm to the parents if their kids enter some area, or leave some area. More features can be added.
+
+8@Mohammad,Hussam,Mohammad@9,23,30
+9@Dr. Mahran Quraan@Design and Control@The VIENNA
+
+9@Qutayba,Abd,Hammam@14,17,13
+13@Dr. Muhammad Abu-Khaizaran@A GaN@The objective 
+
+10@Akram,Ahmad,Omar@30,23,37
+30@Dr. Hakam Shehadeh@Optimal Segmentation of BZU MICROGRID@A strategy to design microgrids with distributed generators consists of taking advantage of an existing distribution network (BZU microgrid) by sectoring the system into a set of microgrids with optimal autonomy. This project will deal with BZU microgrid and will look for a methodology for the optimal design of microgrids based on the virtual segmentation of a distribution system. it focuses on the optimal allocation and sizing of the distributed generation together with the determination of the virtual cut-set lines to form an optimized set of microgrids.
+
+11@Nazeeh,Noor,Qamar@29,35,34
+29@Mr. Aziz Qaroush@Electronic Platform for Shopping and Deal-hunting.@These days’ humans live with great technological development, where this progress is reflected in all aspects of life. One of these areas is a great trend towards using electronic delivery companies and electronic stores as well. So, our goal in this project is to develop an electronic platform and mobile application that combines electronic shopping and deal-hunting. It allows stores to provide their products. Also, its searches for the best matches of the user's needs. The application will be for household electrical appliances.
+
+12@Mohammad,Mariam,Omaima@15,14,9
+15@Mr. Mohammad Al Ju'Beh@Design of baby incubator@Design and implement
+
+13@Aminah,Mean,Haleema@8,15,22
+8@Dr. Wael Hashlamoun@An Application@During the
+
+15@Malak,Haneen,Jenan@15,14,37
+37@Dr. Jamal Seyam@A Centralized Measurement@ Data
+25@Mr. Nasser Ismail@A Study of Key Modern Electric Vehicle (EV) Components, Technologies, Challenges, Impacts, and Future Direction of Development@ This project will focus on reviewing all the useful data available on EV configurations, battery energy sources, electrical machines, charging techniques, optimization techniques, impacts, trends, and possible directions of future developments. Its objective is to provide an overall picture of the current EV technology. Simulations and Calculations of key components of EV will be performed. Prerequisite Courses: ENEE5303 and ENEE5307
+
+16@Jumanah,Nemah@2,7,7 ???
+
+17@Laila,Samira,Abd@7,22,21 ???
+
+18@Farah,Najat,Marah@21,10,22
+10@Dr. Mohammad Jubran@Mobiclink@Any
+
+19@Hala,Sdeen,Jyana@30,14,15
+30@Dr. Hakam Shehadeh@Optimal Segmentation of BZU MICROGRID@A strategy to design microgrids with distributed generators consists of taking advantage of an existing distribution network (BZU microgrid) by sectoring the system into a set of microgrids with optimal autonomy. This project will deal with BZU microgrid and will look for a methodology for the optimal design of microgrids based on the virtual segmentation of a distribution system. it focuses on the optimal allocation and sizing of the distributed generation together with the determination of the virtual cut-set lines to form an optimized set of microgrids.
+
+20@Duha,Leena,Raghad@29,34,35
+34@Dr. Adnan Yahya@Meta E-Commerce System with Payment and Delivery@General Area: Web Design, Payment System, Mobile App Design and Tools, Front/Back end design, Web site aggregations.
+
+21@Haneen,Noor,Marah@1,2,21
+2@Dr. Abualseoud Hanani@Machine learning@The main 
+
+22@Amneh,Tareq,Mahmoud@17,15,8
+24@Mr. Nasser Ismail@Effect of choice of azimuth and tilt angles PV system Performance@The PV system performance is affected by many parameters, among which are the azimuth and tilt angles. This project will focus on comparison of theoretical, simulation and practical results from PV systems implemented in Birzeit University Campus. Prerequisite Courses: ENEE5307 and ENEE4202
+
+23@Issam,Mohammad,Ahmad@14,16,15
+16@Dr. Ashraf Al-Rimawi@Doctor AI@Continuous monitoring of diabetic patients improves their quality of life. The use of multiple technologies such as the Internet of Things (IoT), embedded systems, communication technologies, artificial intelligence, and smart devices can reduce the economic costs of the healthcare system. For this reason, we propose Doctor AI which will help patients with chronic diabetes manage their blood glucose levels in their target range, and also can assist in providing a healthier lifestyle for patients through activity and diet tracking. Doctor AI will propose a patient monitoring system based on Internet of Things (IoT) and a diagnostic prediction tool for diabetic patients. This system provides real-time blood glucose readings and information on blood glucose levels. It monitors blood glucose levels at regular intervals. Accordingly, it aims to prevent high blood sugar and significant glucose fluctuations and control on it. Doctor AI will provide a precise result where, the colle
+
+24@Yazan,Aziz,Dana@23,24,37
+23@Dr. Jaser Sa'ed@Protection coordination for highly photovoltaic-integrated power systems@In the recent years, with the concept of Smart Grids, there are a great interest in integration of photovoltaic (PV) units at distribution level. Along with a number of benefits, penetration of PV units in the distribution system imposes some serious challenges; protection requirements turns up as one of the most critical challenge in PV integration. In this project, the possibility of occurring mis-coordination between protection devices in distribution network will be addressed. On the other hand, there are several mitigation techniques used to solve the mis-coordination problem; a study of these technologies will be conducted and a suitable technique will be designed and implemented.
+
+25@Abd,Muath,Suhaib@20,14,19
+20@Dr. Wasel Ghanem@Intelligent Drone System@In this project, it is expected to develop an intelligent system using machine learning and AI based on Drone platform. It is proposed to capture different images from different heights and then analyze these images to recognize different objects like humans, trees, buildings, etc. Moreover, the Drone system could work as mobile weather station by measuring temperature, pressure, wind direction etc. in different heights.
+
+26@Mohammad,Besan,Abd@22,21,29
+21@Dr. Abdallatif Abuissa@A Mobile Application to Support Health Issues for Elderly@In this project, the students will develop a mobile application that supports the medical needs of old people. The students will be provided with a wearable computer that can take some information about the person, in addition to all history of the person to provide recommendations/reminders to him/her. More features can be added.
+
+27@Sara,Israa,Raghad@14,20,15
+14@Mr. Mohammad Al Ju'Beh@Design of plant@Design and implement
+
+28@Moayad,Aseel,Yazan@22,29,11
+27@Dr. Ismail Khater@Object Classification Using Deep Learning with Raspberry Pi@This project is aiming to deploy a deep learning algorithm (e.g., ResNet-50) onto a Raspberry Pi. We will build real-world computer vision applications (e.g., Object classification and recognition) and perform inference tasks on embedded hardware.
+
+29@Huthaifa,Miqdaa,Mohammad@17,9,30
+17@Dr. Ali Abdo@Vehicles Speed Measurements and ABS in Vehicles@...
+
+30@Tareq,Mahmoud@23,24,30
+24@Mr. Nasser Ismail@Effect of choice of azimuth and tilt angles PV system Performance@The PV system performance is affected by many parameters, among which are the azimuth and tilt angles. This project will focus on comparison of theoretical, simulation and practical results from PV systems implemented in Birzeit University Campus. Prerequisite Courses: ENEE5307 and ENEE4202
+
+32@Yara,Wafa,Sundos@7,29,10
+31@Dr. Hanna Bullata@Perception-to-action: Visually guiding a robot gripper to grab objects using openCV library under ROS operating system@Robotic arms (manipulators) end up with grippers, similar to human hands. These grippers are supposed to grab objects and move them around. Before grabbing these objects, they have to be well identified to make sure the gripper is grabbing the right object. The objects the gripper is supposed to handle are library books. Students are required to make use of a camera and a distance sensor in this project, among other sensors. The camera should be able to identify book boundaries on shelves using the openCV library. Then, using the distance sensor, the camera will be located appropriately in order to identify book titles. The images will be processed to extract text. Once the correct book title has been identified, the coordination perceptionaction must take place until the book is grabbed and put in a box. You need to build a simulated environment under ROS for a robotic 
+
+33@Kamel,Kareen,Sara@29,28,21
+28@Mr. Aziz Qaroush@Content-Based Video Indexing and Retrieval: A summarization-based approach@Video summarization is the process of synthesizing an arbitrary video into an abstract, shorter, and understandable representation. Video summaries can generally be split into two main categories, namely dynamic and static summaries. Static summaries are formed from a set of images representing key events called keyframes, which also convey the video's temporal evolution. Static summaries are less entertaining than their dynamic counterparts as they are limited to still images. However, they introduce a more 
+
+34@Ahmad,Batool,Obada@19,20,1
+19@Dr. Wasel Ghanem@Developing of an innovative System to Determine Eco-Path in Automobile Driving.@It is expected to develop different algorithms using machine learning to detect best route that saves fuel consumption and reduces the amount of CO2 that comes out to the environment. Moreover, due to driver behavior while driving, a proposed model for maintenance of different mechanical parts in the automobile in earlier stages will be suggested. The Development should be based on an App “Carbin” developed in cooperation between Birzeit and MIT.
+
+35@Raya,Deena,Ragahd@17,18,15
+18@Dr. Ali Abdo@Design and Implementation of Blind Juggler Robot@...
+
+36@Rana,Lama,Yaqeen@7,34,36
+7@Dr. Mohammed Hussein@CarPale Application@Today, finding
+
+14 31
